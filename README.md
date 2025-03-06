@@ -3,10 +3,14 @@ class Person{
     String Name;
     int age;
 
+
+
     Person(String Name,int age){
         this.Name = Name;
         this.age = age;
     }
+
+    
     void display(){
         System.out.println("Имя: " + this.Name + " возраст: " + this.age);
     }
